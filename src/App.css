@@ -188,7 +188,7 @@ text-align: center;
 }
 
 .how-to-use>p{
-    font-size: 18px;  
+    font-size: 20px;  
 }
 
 .way-through-app{
@@ -209,3 +209,29 @@ text-align: center;
 .way-through-app > div > div > img{
 max-width: 100%;
 }
+
+.go-steps > h4, .go-steps > p{
+ font-size: 23px;
+ line-height: 10px;
+}
+
+.gold-withdrawl{
+    justify-content: space-evenly;
+    width: 85%;
+    margin: auto;
+    gap: 20px;
+}
+
+.gold-withdrawl > div{
+ width: 25%;
+ border: 0.74px solid #FFE4B3;
+ background: #FFFAF1;
+ padding: 20px;
+ border-radius: 14px;
+ justify-content: space-evenly;
+}
+
+.gold-withdrawl > div > img{
+ width: 30%;
+}
+

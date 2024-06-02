@@ -6,7 +6,7 @@ export const AppWork=()=>{
 <p>Watch or short videos to learn more about our app</p>
 
 <div className="flex way-through-app">
-    <div>
+    <div className="go-steps">
         <div >
             <img src={require("../Images/gold.png")} alt="what gold"/>
             </div>
@@ -14,7 +14,7 @@ export const AppWork=()=>{
    <p>Built on Augmont</p>
 
     </div>
-    <div>
+    <div className="go-steps">
    <div>
     <img src={require("../Images/save.png")} alt="save plus"/>
             </div>
@@ -22,7 +22,7 @@ export const AppWork=()=>{
    <p>SIP or One-time</p>
     </div>
 
-    <div>
+    <div className="go-steps">
     <div>
     <img src={require("../Images/redeem.png")} alt="redeem"/>
             </div>
@@ -31,15 +31,32 @@ export const AppWork=()=>{
     </div>
 </div>
 
+<br/>
 
-<div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+<div className="flex gold-withdrawl">
+<div className="flex">
+    <img src={require("../Images/no_lock.png")} alt="no lock"/>
+    <p>No Lock-in on <br/> Plus Gold</p>
+</div>
+<div className="flex">
+<img src={require("../Images/withdraw.png")} alt="withdrawl"/>
+    <p>Easy <br/> Withdrawal</p>
+</div>
+<div className="flex">
+<img src={require("../Images/fixed.png")} alt="fixed"/>
+    <p>Fixed Extra <br/> Gold p.a.</p>
+</div>
+<div className="flex">
+<img src={require("../Images/bonus.png")} alt="Bonus"/>
+    <p>Bonus benefits <br/> from Jeweller</p>
+</div>
 
 </div>
 
+
+<div className="shark-tank">
+
+</div>
 
         </div>
     </div>
