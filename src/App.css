@@ -1,0 +1,149 @@
+*{
+    color: #2B2B2B;
+    
+}
+
+.flex{
+display: flex;
+}
+
+.gold{
+   color: #C4963C; 
+}
+/* header */
+
+.header{
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, #0076C0 0%, #01136B 100.7%);
+color:white;
+align-items: center;
+}
+
+.header > h1{
+    font-size: 23px;
+    color: #FFEC86;
+}
+.header > h1 > span{
+    font-weight: 600;
+    color: white;
+}
+
+.plus-header{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.plus-header  h2{
+font-size: 40px;
+}
+
+.plus-header  h2 > span{
+    color: #3B3B3B;
+}
+
+.plus-header-right{
+    width: 50%;
+    justify-content: space-evenly;
+    color:#141414;
+}
+
+.plus-header-right > :last-child, .saving-button > p:first-child{
+    color:white;
+    background: #9D002B;
+    border-radius: 20px; 
+    text-align: center;
+    padding: 8px 30px;
+    margin-top: 10px;
+}
+
+/* ----------ad box----------- */
+
+.ad-box{
+    /* width: 980px; */
+    /* height: 1204px; */
+    background: linear-gradient(180deg, rgba(255, 238, 204, 0) 2.59%, rgba(255, 238, 204, 0.6) 32.16%);
+    border:0.5px solid rgba(255, 238, 204, 0.6);
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.extra-gold-ad-box{
+    margin: 30px;
+}
+
+.extra-gold-ad-box > :first-child{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 0px;
+   
+}
+
+.trust-tab{
+    background: white;
+    border-radius: 20px; 
+    text-align: center;
+    padding: 8px 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 0.5px solid #BAA1FF;
+}
+
+.extra-gold-ad-box > .gold{
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 0px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.extra-gold-ad-box > :nth-child(3){
+font-size: 23px;
+}
+
+.pentagon {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(317.19deg, #DEA84E 8.88%, #FFD77F 53.99%, #FFF1A8 99.1%);
+    clip-path: polygon(50% 95%, 18% 77%, 18% 0%, 87% 0%, 87% 78%);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pentagon > .pentagon {
+    width: 180px;
+    height: 180px;
+    background: #7b74ac;
+} 
+
+.pentagon-ad{
+    width: 60%;
+    padding: 5%;
+    border: 1px solid #B7B7B7;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 40px;
+    margin:-40px auto 40px;
+    background-color: white;
+}
+
+.buy-gold-wrap >h3{
+    font-size: 35px;
+   margin-left: 20px;
+   margin-bottom: 10px;
+}
+
+.buy-gold-wrap > :nth-child(2){
+font-size: 25px;
+font-weight: 600;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+.buy-gold-wrap > :nth-child(3){
+    font-size: 16px;
+    width: 430px;
+}
