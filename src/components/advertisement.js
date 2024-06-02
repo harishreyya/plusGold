@@ -11,19 +11,19 @@ return <div>
         <p className="trust-tab">Trusted by 2Lakh + Indians</p>
         </div>
 
-        <div className="flex">
+        <div className="flex company-logos">
          <p>Powered By</p>
-         <img src="" alt="com1"/>
-         <img src="" alt="com2"/>
-         <img src="" alt="com3"/>
+         <img src={require("../Images/company_1.png")} alt="com1"/>
+         <img src={require("../Images/company_2.png")} alt="com2"/>
+         <img src={require("../Images/company_3.png")} alt="com3"/>
         </div>
 
      </div>
 
 
      <div className="sonali-img">
-     <img src="" alt="design"/>
-     <img src="" alt="sonali"/>
+     <img src={require("../Images/design.png")} className="design" alt="design"/>
+     <img src={require("../Images/sonakshi.png")} className="sonali" alt="sonali"/>
      </div>
     </div>
 

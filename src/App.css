@@ -34,7 +34,7 @@ align-items: center;
     padding-left: 30px;
 }
 
-.plus-header  h2{
+.plus-header  h2,.how-to-use h3{
 font-size: 40px;
 }
 
@@ -66,6 +66,7 @@ font-size: 40px;
     border:0.5px solid rgba(255, 238, 204, 0.6);
   justify-content: space-evenly;
   padding-bottom: 50px;
+  padding: 40px;
 }
 
 .extra-gold-ad-box{
@@ -101,9 +102,40 @@ font-size: 40px;
 font-size: 23px;
 }
 
+.company-logos{
+    gap: 10px;
+align-items: center;
+justify-content: space-evenly;
+width: 70%;
+}
+
+.company-logos > img{
+    width: 60px;
+    height: 25px;
+}
+
+.sonali-img {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .sonali-img .design {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .sonali-img .sonali {
+    position: relative;
+    z-index: 2;
+  }
+
 .pentagon {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     background: linear-gradient(317.19deg, #DEA84E 8.88%, #FFD77F 53.99%, #FFF1A8 99.1%);
     clip-path: polygon(50% 95%, 18% 77%, 18% 0%, 87% 0%, 87% 78%);
     margin: 50px auto;
@@ -113,9 +145,10 @@ font-size: 23px;
 }
 
 .pentagon > .pentagon {
-    width: 180px;
-    height: 180px;
-    background: #7b74ac;
+    width: 210px;
+    height: 210px;
+    background-image: url('./Images/mother_daughter.png');
+    background-position: center;
 } 
 
 .pentagon-ad{
@@ -124,9 +157,9 @@ font-size: 23px;
     border: 1px solid #B7B7B7;
     border-radius: 20px;
     justify-content: space-evenly;
-    /* align-items: center; */
+    align-items: center;
     gap: 40px;
-    margin:-40px auto 40px;
+    margin:-125px auto 40px;
     background-color: white;
 }
 
@@ -146,4 +179,33 @@ margin-bottom: 10px;
 .buy-gold-wrap > :nth-child(3){
     font-size: 16px;
     width: 430px;
+}
+
+/* -----------way through app--------- */
+
+.how-to-use {
+text-align: center;
+}
+
+.how-to-use>p{
+    font-size: 18px;  
+}
+
+.way-through-app{
+    gap:20px;
+    width: 80%;
+    margin: auto;
+    background-color: #FFFAF1;
+    border: 1px solid #FFE4B3;
+    border-radius: 16px;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.way-through-app > div{
+    width: 30%;
+}
+
+.way-through-app > div > div > img{
+max-width: 100%;
 }
