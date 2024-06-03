@@ -22,7 +22,7 @@ export const LifeGoals = () =>{
 <h3>Save for life goals</h3>
 <p>Save in Plus Gold for life events that matters</p>
 <br/>
-<div className="slider-container">
+<div className="slider-container">    
     <Slider {...settings}>
     <div>
     <img src={require("../Images/wedding.png")} alt="wedding" />

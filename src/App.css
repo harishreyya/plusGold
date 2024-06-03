@@ -34,7 +34,7 @@ align-items: center;
     padding-left: 30px;
 }
 
-.plus-header  h2,.how-to-use h3,.life-goals > h3,.trusted-companies>h3{
+.plus-header  h2,.how-to-use h3,.life-goals > h3,.trusted-companies>h3,.media-love>h3,.secure-info>h3{
 font-size: 40px;
 }
 
@@ -183,11 +183,11 @@ margin-bottom: 10px;
 
 /* -----------way through app--------- */
 
-.how-to-use {
+.how-to-use ,.life-goals,.trusted-companies,.media-love{
 text-align: center;
 }
 
-.how-to-use>p, .life-goals > p,.trusted-companies>p{
+.how-to-use>p, .life-goals > p,.trusted-companies>p,.media-love>p,.secure-info>p{
     font-size: 20px;  
 }
 
@@ -245,10 +245,10 @@ max-width: 100%;
     margin: auto;
 }
 
-.life-goals,.trusted-companies{
-    text-align: center;
+.slider-container{
+    width: 90%;
+    margin: auto;
 }
-
 
 .oval {
     width: 150%;    
@@ -280,7 +280,7 @@ max-width: 100%;
 .trsuted-company-logos{
     /* justify-content: space-evenly; */
    padding:10px 30px 0px;
-    width: 100%;
+    /* width: 100%; */
     gap: 6px;
     margin: auto;
 }
@@ -298,9 +298,86 @@ max-width: 100%;
 .trsuted-company-logos > div > img{
 width: 50px;
 height: 50px;
-padding: 8px;
+padding: 10px;
 }
 
 .trust-1{
   margin-left: 100px;
+}
+
+
+/* --------media love---------- */
+
+.slider-container-media{
+justify-content: space-evenly;
+}
+.media-slide{
+    width: 75%;
+    margin: auto;
+}
+
+.ad-card-wrap{
+   margin: auto;
+}
+
+.media-pic-info{
+    background-color: #FFFAF5;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+     border: 1px solid #EFEFEF;
+     font-size: 14px;
+     font-weight: 600;
+     padding-bottom: 40px;
+}
+
+.magazine > img{
+    padding: 15px;
+    border-radius: 10px;
+    border: 5px solid #FDE7CB;
+    background-color: #FFFAF5;
+    margin-top: -20px;
+}
+
+/* --------secure locker----------- */
+
+.secure-locker-wrap{
+    justify-content: space-between;
+    padding: 80px;
+   align-items: center;
+}
+
+.company-secure{
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.company-secure > .vetical-line{
+width: 1.5px;
+height: 40px;
+background-color: #DEE2E6;
+}
+
+/* ----footer---- */
+
+.about-cities > h4{
+color: #6E0C26;
+}
+
+.footer{
+     background: linear-gradient(180deg, rgba(255, 238, 204, 0) 2.59%, rgba(255, 238, 204, 0.6) 38.16%);
+   
+}
+
+.footer-info{
+    justify-content: space-between;
+    padding: 70px;
+    /* padding-right: 100px; */
+    margin-right: 100px;
+}
+
+.about-cities{
+    height: 300px;
 }
