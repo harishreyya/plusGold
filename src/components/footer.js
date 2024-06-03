@@ -138,6 +138,9 @@ Investing in gold for good returns involves choosing the right investment vehicl
 
 </div>
 </div>
+<div className="flex shark-footer">
+    <img src={require("../Images/shark_footer.png")} alt=""/>
+</div>
 
         </div>
     </div>

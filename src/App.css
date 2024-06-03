@@ -410,3 +410,9 @@ font-weight: 600;
 b{
 font-weight: 500;
 }
+
+.shark-footer{
+   justify-content: center;
+   background-color: white;
+   padding: 40px;
+}
