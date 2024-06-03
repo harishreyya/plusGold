@@ -271,5 +271,36 @@ max-width: 100%;
 }
 
 
+/* --------------trusted companies----------- */
 
+.comapny-wrap{
+    justify-content: center;
+}
 
+.trsuted-company-logos{
+    /* justify-content: space-evenly; */
+   padding:10px 30px 0px;
+    width: 100%;
+    gap: 6px;
+    margin: auto;
+}
+
+.trsuted-company-logos > div{
+
+    border-radius: 50%;
+    border: 1px solid #6E0C26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.trsuted-company-logos > div > img{
+width: 50px;
+height: 50px;
+padding: 8px;
+}
+
+.trust-1{
+  margin-left: 100px;
+}
