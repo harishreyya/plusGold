@@ -54,7 +54,21 @@ export const AppWork=()=>{
 </div>
 
 
+<br/>
+
 <div className="shark-tank">
+{/* <div>
+    <p>PlusGold appearance in</p>
+    <h4>SHARK TANK INDIA</h4>
+
+    <br/>
+
+    <p>Watch our Shark <br/>
+Tank pitch </p>
+</div> */}
+
+
+    <img src={require("../Images/shark_add.png")} alt="shark tank video"/>
 
 </div>
 

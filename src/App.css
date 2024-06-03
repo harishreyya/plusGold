@@ -34,7 +34,7 @@ align-items: center;
     padding-left: 30px;
 }
 
-.plus-header  h2,.how-to-use h3{
+.plus-header  h2,.how-to-use h3,.life-goals > h3,.trusted-companies>h3{
 font-size: 40px;
 }
 
@@ -48,7 +48,7 @@ font-size: 40px;
     color:#141414;
 }
 
-.plus-header-right > :last-child, .saving-button > p:first-child{
+.plus-header-right > :last-child, .saving-button > p:first-child,.life-saving-button{
     color:white;
     background: #9D002B;
     border-radius: 20px; 
@@ -187,7 +187,7 @@ margin-bottom: 10px;
 text-align: center;
 }
 
-.how-to-use>p{
+.how-to-use>p, .life-goals > p,.trusted-companies>p{
     font-size: 20px;  
 }
 
@@ -226,12 +226,50 @@ max-width: 100%;
  width: 25%;
  border: 0.74px solid #FFE4B3;
  background: #FFFAF1;
- padding: 20px;
+ padding: 15px;
  border-radius: 14px;
  justify-content: space-evenly;
+ text-align: left;
 }
 
 .gold-withdrawl > div > img{
- width: 30%;
+ width: 28%;
 }
+
+/* ----------------life goals----------- */
+
+.slider-container img{
+
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+
+.life-goals,.trusted-companies{
+    text-align: center;
+}
+
+
+.oval {
+    width: 150%;    
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #faeed8 ;
+    border-radius: 50%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: -250px;
+    background: linear-gradient(0deg, #FFCA6A -40%, #FFFFFF 25%);
+    /* z-index: 0; */
+}
+
+.life-saving-button{
+    width: 170px;
+    margin: 40px auto;
+    z-index: 5;
+}
+
+
+
 
