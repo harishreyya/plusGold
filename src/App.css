@@ -381,3 +381,32 @@ color: #6E0C26;
 .about-cities{
     height: 300px;
 }
+
+.horizontal-line{
+    width: 90%;
+    margin: auto;
+    height: 2px;
+    border-radius: 1px;
+    background-color:#b7b6b6 ;
+}
+
+.play-store{
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.faqs{
+    width: 90%;
+    margin: auto;
+}
+
+.faqs h3{
+font-size: 24px;
+font-weight: 600;
+}
+
+b{
+font-weight: 500;
+}
