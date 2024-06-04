@@ -10,6 +10,11 @@ display: flex;
 .gold{
    color: #C4963C; 
 }
+
+.cross{
+    color:white;
+    cursor: pointer;
+}
 /* header */
 
 .header{
