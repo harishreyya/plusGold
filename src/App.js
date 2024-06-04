@@ -8,7 +8,7 @@ import { MediaLove } from './components/mediaLove';
 import { Secured } from './components/secuired';
 import { Footer } from './components/footer';
 import { SharkAd } from './components/sharkAd';
-// import { Graph } from './components/graph';
+import { Graph } from './components/graph';
 
 function App() {
   return  <div className="App">
@@ -17,7 +17,8 @@ function App() {
  <Advertise/>
  <AppWork/>
  <LifeGoals/>
- {/* <Graph/> */}
+ <br/><br/>
+ <Graph/>
  <TrustedCompany/>
  <MediaLove/>
  <br/><br/>
